@@ -34,7 +34,7 @@ services:
         - JVM_OPTS=-Xmx16g
 # This happens to be the world I chose to use. Comment it out to make it random or put in your own value.
         - LEVELSEED="7229311241545822825"
-
+        - OPS = "Troublegum"
 # default enironment variable values
 #        - JVM_OPTS : "-Xms2g -Xmx6g"
 #        - JAVA_HOME : "/usr/local/openjdk-17"
