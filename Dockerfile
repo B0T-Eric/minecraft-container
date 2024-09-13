@@ -2,7 +2,7 @@
 
 FROM openjdk:17-jdk-buster
 
-LABEL version="1.18.0"
+LABEL version="1.18.2"
 
 RUN apt-get update && apt-get install -y curl dos2unix && \
  addgroup minecraft && \
